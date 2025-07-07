@@ -36,5 +36,10 @@ let sum =33
 let string= String(sum)
 console.log( typeof string);
 
+let sum1 =33
+
+let string1= String(sum1)
+console.log( typeof string1);
+
 
 
