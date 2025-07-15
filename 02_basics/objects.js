@@ -78,12 +78,30 @@ tinderUser.name="simran"
 tinderUser.id="123abc"
 //console.log(tinderUser);
 
-const regularUser={
-    email: "simran@123",
-    rollNo:{
-        first:22,
-        second:34,
+const regularUser = {
+    fullname:{
+        firstname :"simran",
+        lastname:"kaushal",
+        address:{
+            flatno:33,
+        }
     }
-
 }
-console.log(regularUser.rollNo);
+
+console.log(regularUser.fullname.address);
+
+const obj1={1:"a",2:"b",3:"c"}
+const obj2={4:"a",5:"b",6:"c"}
+
+const obj3 = Object.assign({},obj1,obj2)// object.assign()is used to merge objects, but we normally use separade variables for clarity(...)denoted by three dots.
+
+
+console.log(obj3);
+
+console.log(tinderUser);
+console.log(Object.keys(tinderUser)); //returns an array of keys in the object
+console.log(Object.values(tinderUser)); //returns an array of values in the object
+console.log(Object.entries(tinderUser)); //returns an array of key-value pairs in the object
+
+
+console.log(tinderUser.hasOwnProperty("name")); //checks if the object has a specific property
