@@ -69,3 +69,21 @@ author:"John Doe",
 }
 console.log("title" in book); //checking if key exists using 'in' operator
 console.log("publisher" in book); //checking if key exists using 'in' operator
+
+//const tinderUser = new  Object();//singleton object
+
+const tinderUser={} //non signalton object
+//console.log(tinderUser);
+tinderUser.name="simran"
+tinderUser.id="123abc"
+//console.log(tinderUser);
+
+const regularUser={
+    email: "simran@123",
+    rollNo:{
+        first:22,
+        second:34,
+    }
+
+}
+console.log(regularUser.rollNo);
