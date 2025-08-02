@@ -43,7 +43,7 @@ console.log(typeof notDefined); // type unefined
 
 //null
 
-let empty = null;;
+let empty = null;
 console.log(typeof empty); //type object
 
 //symbol
